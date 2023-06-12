@@ -1,0 +1,40 @@
+
+
+
+
+
+
+// add table in database
+
+CREATE TABLE product(
+    id int primary key auto_increment,
+    name varchar(50),444444444444444444444
+    price int,
+    description varchar(100),
+    image varchar(100
+    );
+
+    // add COLUMN in table
+ALTER TABLE products
+ADD COLUMN id INT PRIMARY KEY,
+ADD COLUMN name varchar(50),
+ADD COLUMN price integer,
+ADD COLUMN on_sale boolean;
+
+// create restaurant table in database
+
+CREATE TABLE restaurant(
+    id int primary key,
+    name varchar(50),
+    location varchar(50),
+    price_range int
+    );
+
+    // insert data in restaurant table
+
+    INSERT INTO restaurant(id,name,location,price_range)
+     VALUES(1,'Sareeg','Khartoum','$$$');
+
+
+
+
