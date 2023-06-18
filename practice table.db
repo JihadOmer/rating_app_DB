@@ -8,7 +8,7 @@
 
 CREATE TABLE product(
     id int primary key auto_increment,
-    name varchar(50),444444444444444444444
+    name varchar(50),
     price int,
     description varchar(100),
     image varchar(100
@@ -23,17 +23,18 @@ ADD COLUMN on_sale boolean;
 
 // create restaurant table in database
 
-CREATE TABLE restaurant(
-    id int primary key,
-    name varchar(50),
-    location varchar(50),
-    price_range int
-    );
 
-    // insert data in restaurant table
+create table restaurant(
+id BIGSERIAL not null,
+name VARCHAR(50) not null,
+location VARCHAR(50) not null,
+price_range int not null
+);
 
-    INSERT INTO restaurant(id,name,location,price_range)
-     VALUES(1,'Sareeg','Khartoum','$$$');
+// ADD data to a table
+
+INSERT INTO restaurant(name, location, price_range)
+VALUES('Sareeg','Khartoum', 3);
 
 
 
