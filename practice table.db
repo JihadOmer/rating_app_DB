@@ -35,6 +35,8 @@ price_range int not null
 
 INSERT INTO restaurant(name, location, price_range)
 VALUES('Sareeg','Khartoum', 3);
+INSERT INTO restaurant(name, location, price_range)
+VALUES('KFC','Leeds', 2);
 
 
 
